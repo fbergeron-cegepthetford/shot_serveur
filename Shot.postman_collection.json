@@ -1,0 +1,239 @@
+{
+	"info": {
+		"_postman_id": "231436e2-2c11-42b0-8f2f-57509e46f591",
+		"name": "Shot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Citation",
+			"item": [
+				{
+					"name": "Citation du jour",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/cdj",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cdj"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter une citation",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "{{nom_cle_admin}}",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{cle_admin}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"auteur\" : \"Charles Patenaude\",\r\n    \"citation\": \"Qui sème le vent récolte du blé d’inde pis des pétates.\",\r\n    \"annee\": 1999\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/cdj",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cdj"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Effacer une citation",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "{{nom_cle_admin}}",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{cle_admin}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/cdj/2",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"cdj",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Fait",
+			"item": [
+				{
+					"name": "Fait aléatoire",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "value",
+									"value": "{{cle_api}}",
+									"type": "string"
+								},
+								{
+									"key": "key",
+									"value": "{{nom_cle_api}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/fait",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"fait"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ajouter un fait",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "{{nom_cle_admin}}",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{cle_admin}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"description\" : \"Une chauve-souris a des ailes\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/fait",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"fait"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Effacer un fait",
+					"request": {
+						"auth": {
+							"type": "apikey",
+							"apikey": [
+								{
+									"key": "key",
+									"value": "{{nom_cle_admin}}",
+									"type": "string"
+								},
+								{
+									"key": "value",
+									"value": "{{cle_admin}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/fait/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"fait",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Index",
+			"request": {
+				"auth": {
+					"type": "apikey"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

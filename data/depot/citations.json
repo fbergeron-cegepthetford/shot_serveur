@@ -1,0 +1,80 @@
+[
+    {
+        "id": 0,
+        "auteur": "Inconnu",
+        "citation": "Si la vie avait un sens, je prendrais l'autre.",
+        "annee": null
+    },
+    {
+        "id": 1,
+        "auteur": "Charles Patenaude",
+        "citation": "Qui sème le vent récolte du blé d’inde pis des pétates.",
+        "annee": 1999
+    },
+    {
+        "id": 2,
+        "auteur": "Charles Patenaude",
+        "citation": "La nuit porte… porte… porte de garage.",
+        "annee": 1999
+    },
+    {
+        "id": 3,
+        "auteur": "Charles Patenaude",
+        "citation": "Rien ne sert de courir: il faut partir à go, encaisser 200$ et acheter l’avenue Connecticut.",
+        "annee": 1999
+    },
+    {
+        "id": 4,
+        "auteur": "Charles Patenaude",
+        "citation": "Comme disait le grand Pierre de Coubertin, la volonté c’est comme l’acné ! Plus t’en a, et plus…. ça paraît !",
+        "annee": 1999
+    },
+    {
+        "id": 5,
+        "auteur": "Charles Patenaude",
+        "citation": "Il ne faut tout de même pas vendre la peau de l’ours s’il est pas d’accord avec le prix !",
+        "annee": 1999
+    },
+    {
+        "id": 6,
+        "auteur": "Charles Patenaude",
+        "citation": "Vini vidi vici ce qui veux dire: je vais y aller, je vais checker, pis m’en va vous rapp’ller.",
+        "annee": 1999
+    },
+    {
+        "id": 7,
+        "auteur": "Charles Patenaude",
+        "citation": "Après la pluie, le gazon est mouillé.",
+        "annee": 1999
+    },
+    {
+        "id": 8,
+        "auteur": "Charles Patenaude",
+        "citation": "Qui vivra…ne mourra pas toute suite.",
+        "annee": 1999
+    },
+    {
+        "id": 9,
+        "auteur": "Charles Patenaude",
+        "citation": "Quand on est seul on est souvent moins nombreux.",
+        "annee": 1999
+    },
+    {
+        "id": 10,
+        "auteur": "Charles Patenaude",
+        "citation": "L’avenir appartient à ceux qui se lave tôt, car … il reste encore de l’eau chaude.",
+        "annee": 1999
+    },
+    {
+        "id": 11,
+        "auteur": "Charles Patenaude",
+        "citation": "Retroussons notre courage et prenons nos manches à deux mains.",
+        "annee": 1999
+    },
+    {
+        "id": 12,
+        "auteur": "Charles Patenaude",
+        "citation": "Jouer au ping-pong tout seul, c’est bon pour le cardio-vasculaire, mais c’est plate rare !",
+        "annee": 1999
+    }
+]
